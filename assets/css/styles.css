@@ -55,4 +55,18 @@ body{
 .info{
     display: flex;
     justify-content: space-between;
+    margin: 50px 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.creadas{
+    color: #f32170;
+}
+.concluidas{
+    color: #cf23cf;
+}
+.divider{
+    background: #a502ee;
+   background: linear-gradient(to right, #a502ee, #ffffff, #02fff7);
+   height: 3px;
 }
