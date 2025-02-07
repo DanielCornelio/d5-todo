@@ -20,3 +20,19 @@ const tasks = [
       "completada": false
     }
   ]
+
+  const tbody = document.querySelector('.tb')
+
+  let html = "";
+  tasks.map(task =>{
+    html += `
+      <tr>
+        <td><input type="checkbox" name="" id="" readonly ${task.completada?'checked':''}></td>
+        <td>${task.id}</td>
+        <td>${task.descripcion}</td>
+        <td></td>
+        <td></td>
+      </tr>
+    `
+  })
+  tbody.innerHTML += html
