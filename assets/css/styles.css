@@ -65,13 +65,45 @@ body{
 .concluidas{
     color: #cf23cf;
 }
+.count{
+    background-color: ghostwhite;
+    padding: 2px 14px;
+    border-radius: 15px;
+}
 .divider{
     background: #a502ee;
-   background: linear-gradient(to right, #a502ee, #ffffff, #02fff7);
+   background: linear-gradient(to right, #f32170, #ffffff, #cf23cf);
    height: 3px;
+   border: none;
 }
+
+
 table{
-    color: #ffffff;
     width: 100%;
     border: 1px solid #fff;
+    margin-top: 30px;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  td{
+    color: #ddd;
+  }
+#toggleTask{
+    cursor: pointer;
+}
+.eliminar{
+    cursor: pointer;
 }
